@@ -58,10 +58,22 @@ print(a*b)
 ---------------------------------------------------------------------------------------
 Task 4
 
+Read an integer N. For all non-negative integers i < N , print i **2. See the sample for details.
 
 
+Solution 1
 
+a = int(input())
+for i in range (a):
+   print (i**2)
+   
+Solution 2
 
+for i in range(int(raw_input())):
+    print i**2
+   
+ ------------------------------------------------------------------------------------------  
+   
 
 
 
